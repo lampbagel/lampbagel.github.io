@@ -1,3 +1,42 @@
 body {
-  word-wrap: break-word
+  word-wrap: break-word;
 }
+
+.logo {
+	font-family: 'UnifrakturCook', cursive;
+	font-size: 75px;
+	width: 400px;
+	height: 200px;
+	border-style: solid;
+	text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+    position: absolute;
+    top:25%;
+    left:25%;
+    background-color: #ffffff;
+}
+
+.logo span.slogan {
+	line-height: 2px;
+	font-family: 'Cutive Mono', monospace;
+	font-size: 20px;
+}
+
+.logo span.zz-slogan {
+	line-height: 4.5px;
+	font-family: 'Cutive Mono', monospace;
+	font-size: 10px;
+	color: red;
+    margin:50px 0 0 0;
+}
+
+.logo span {
+	display: block;
+}
+
+.background {
+	font-family: 'Cutive Mono', monospace;
+	opacity: 0.6;
+}
+
