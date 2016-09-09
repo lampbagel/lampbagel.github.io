@@ -10,7 +10,7 @@ body {
 	border-style: solid;
 	text-align: center;
     vertical-align: middle;
-    line-height: 100px;
+    line-height: 70px;
     position: absolute;
     top:25%;
     left:25%;
@@ -18,9 +18,11 @@ body {
 }
 
 .logo span.slogan {
-	line-height: 2px;
+	line-height: 30px;
 	font-family: 'Cutive Mono', monospace;
 	font-size: 20px;
+	letter-spacing: 0.01em;
+	word-spacing: normal;
 }
 
 .logo span.zz-slogan {
